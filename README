@@ -1,6 +1,6 @@
-A simple mono-repo:
+# A simple mono-repo:
 
-Package manager representation:
+## Package manager representation:
 - npm
 - Ruby
 - Maven
