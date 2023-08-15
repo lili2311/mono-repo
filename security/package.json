@@ -10,6 +10,12 @@
   "dependencies": {
     "node-uuid": "1.4.0",
     "qs": "0.0.6",
-    "tap": "^5.8.0"
-  }
+    "tap": "^12.6.2",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
